@@ -13,9 +13,9 @@ window.onload = () => {
 };
 let generateExcuse = () => {
   let pron = ["My", "Your", "The"];
-  let who = ["grandmother", "dog", "President", "Alien", "Neighbor"];
+  let who = ["grandmother", "dog", "President", "Alien", "neighbor"];
   let act = [
-    "Burned down",
+    "burned down",
     "caused chaos on",
     "flooded",
     "ripped",
