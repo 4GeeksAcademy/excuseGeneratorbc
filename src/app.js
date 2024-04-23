@@ -13,10 +13,31 @@ window.onload = () => {
 };
 let generateExcuse = () => {
   let pron = ["My", "Your", "The"];
-  let who = ["grandmother", "dog", "President", "Alien"];
-  let act = ["Burned down", "caused chaos on", "flooded", "ripped", "ate"];
-  let thin = ["my head", "my house", "my homework", "my country", "my family"];
-  let how = ["dancing reggaeton", "while eating an ice cream", "accidentally"];
+  let who = ["grandmother", "dog", "President", "Alien", "Neighbor"];
+  let act = [
+    "Burned down",
+    "caused chaos on",
+    "flooded",
+    "ripped",
+    "ate",
+    "lost",
+    "stole"
+  ];
+  let thin = [
+    "my head",
+    "my house",
+    "my homework",
+    "my country",
+    "my family",
+    "my phone"
+  ];
+  let how = [
+    "dancing reggaeton",
+    "while eating an ice cream",
+    "accidentally",
+    "in a fit of rage",
+    "while sleepwalking"
+  ];
 
   let pronind = Math.floor(Math.random() * pron.length);
   let whoind = Math.floor(Math.random() * who.length);
