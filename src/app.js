@@ -12,9 +12,9 @@ window.onload = () => {
   });
 };
 let generateExcuse = () => {
-  let pron = ["My", "Your", "The"];
-  let who = ["grandmother", "dog", "President", "Alien", "neighbor"];
-  let act = [
+  let pronombre = ["My", "Your", "The"];
+  let quien = ["grandmother", "dog", "President", "Alien", "neighbor"];
+  let action = [
     "burned down",
     "caused chaos on",
     "flooded",
@@ -23,7 +23,7 @@ let generateExcuse = () => {
     "lost",
     "stole"
   ];
-  let thin = [
+  let que = [
     "my head",
     "my house",
     "my homework",
@@ -31,7 +31,7 @@ let generateExcuse = () => {
     "my family",
     "my phone"
   ];
-  let how = [
+  let como = [
     "dancing reggaeton",
     "while eating an ice cream",
     "accidentally",
@@ -39,20 +39,20 @@ let generateExcuse = () => {
     "while sleepwalking"
   ];
 
-  let pronind = Math.floor(Math.random() * pron.length);
-  let whoind = Math.floor(Math.random() * who.length);
-  let actind = Math.floor(Math.random() * act.length);
-  let thinind = Math.floor(Math.random() * thin.length);
-  let howind = Math.floor(Math.random() * how.length);
+  let pronombreRandom = Math.floor(Math.random() * pronombre.length);
+  let quienRandom = Math.floor(Math.random() * quien.length);
+  let actionRandom = Math.floor(Math.random() * action.length);
+  let queRandom = Math.floor(Math.random() * que.length);
+  let comoRandom = Math.floor(Math.random() * como.length);
   return (
-    pron[pronind] +
+    pronombre[pronombreRandom] +
     " " +
-    who[whoind] +
+    quien[quienRandom] +
     " " +
-    act[actind] +
+    action[actionRandom] +
     " " +
-    thin[thinind] +
+    que[queRandom] +
     " " +
-    how[howind]
+    como[comoRandom]
   );
 };
